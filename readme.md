@@ -8,17 +8,17 @@ The primary objective is to enhance vehicle safety and performance while signifi
 
 ## ✨ Features
 
-* **Comprehensive Component Monitoring:** Get health insights for three critical vehicle systems:
-    * **Engine System️**
-    * **Brake System**
-    * **Tire System**
-* **Intuitive Data Upload:** Easily upload your vehicle's time-series sensor data via CSV files.
-* **Advanced Predictive Metrics:** For each component, the dashboard displays:
-    * **Health Score (0-100%):** A continuous indicator of the component's current condition.
-    * **Failure Risk (Next 30 Days):** The probability of a component failure within the upcoming month.
-    * **Remaining Useful Life (RUL in days):** An estimate of the days until the component requires maintenance.
-    * **Time To Failure (TTF in days):** An estimate of the days until a critical failure event.
-* **Intelligent Maintenance Advice:** Receive specific, actionable recommendations based on the predicted health metrics and predefined thresholds, enabling efficient maintenance planning.
+- **Comprehensive Component Monitoring:** Get health insights for three critical vehicle systems:
+  - **Engine System️**
+  - **Brake System**
+  - **Tire System**
+- **Intuitive Data Upload:** Easily upload your vehicle's time-series sensor data via CSV files.
+- **Advanced Predictive Metrics:** For each component, the dashboard displays:
+  - **Health Score (0-100%):** A continuous indicator of the component's current condition.
+  - **Failure Risk (Next 30 Days):** The probability of a component failure within the upcoming month.
+  - **Remaining Useful Life (RUL in days):** An estimate of the days until the component requires maintenance.
+  - **Time To Failure (TTF in days):** An estimate of the days until a critical failure event.
+- **Intelligent Maintenance Advice:** Receive specific, actionable recommendations based on the predicted health metrics and predefined thresholds, enabling efficient maintenance planning.
 
 ## ⚙️ How It Works
 
@@ -30,11 +30,11 @@ The primary objective is to enhance vehicle safety and performance while signifi
 
 ### 🛠️ Technologies Used
 
-* **Python**
-* **Streamlit:** For building the interactive web dashboard.
-* **Pandas:** For efficient data manipulation and analysis.
-* **Scikit-learn:** For machine learning models (`RandomForestRegressor`) and data preprocessing.
-* **Joblib:** For efficient serialization and deserialization of trained models and preprocessors.
+- **Python**
+- **Streamlit:** For building the interactive web dashboard.
+- **Pandas:** For efficient data manipulation and analysis.
+- **Scikit-learn:** For machine learning models (`RandomForestRegressor`) and data preprocessing.
+- **Joblib:** For efficient serialization and deserialization of trained models and preprocessors.
 
 ## 🚀 Usage
 
@@ -43,19 +43,17 @@ The primary objective is to enhance vehicle safety and performance while signifi
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Blessingde/-AI-Based-Vehicle-Engine-Failure-Detection-.git
-cd -AI-Based-Vehicle-Engine-Failure-Detection-
+git clone https://github.com/Blessingde/ice-vehicle-heath-dashboard.git
+cd -ice-vehicle-heath-dashboard-
 ```
 
 ### 2. Run the Streamlit app:
 
 ```bash
 
-streamlit run app1.py
+streamlit run app.py
 
 ```
-
-
 
 ### 📦Installation
 
@@ -67,10 +65,8 @@ pip install requirements.txt
 
 ## Demo link
 
-[Streamlit App](https://smartenginecheck.streamlit.app/)
-
-
+[Streamlit App](https://ice-vehicle-heath-dashboard.streamlit.app/)
 
 ### 📊 Sample Dataset
 
-Use this [sample CSV file](https://drive.google.com/your_shared_link_here) to test the engine prediction system.
+Use this [sample CSV file](https://drive.google.com/file/d/1Gb9XDd6ZtCbDlhQ1k1H5ZQHDXvI4vVaO/view?usp=sharing) to test the engine prediction system.
