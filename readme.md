@@ -24,7 +24,7 @@ The primary objective is to enhance vehicle safety and performance while signifi
 
 1.  **Data Ingestion:** Upload a CSV file containing your vehicle's sensor readings and operational data.
 2.  **Vehicle Selection:** Choose a specific `Vehicle_ID` from the dropdown list for analysis.
-3.  **Feature Processing:** The system processes the raw data, calculating various time-series features (like rolling averages and lagged values) that represent the recent operational history of the vehicle.
+3.  **Feature Processing:** The system processes the raw data, calculating various time-series features (rolling averages and lagged values) that represent the recent operational history of the vehicle.
 4.  **Machine Learning Prediction:** Pre-trained multi-output `RandomForestRegressor` models analyze the processed features to predict the RUL, TTF, Failure Probability, and Health Score for each monitored component.
 5.  **Dashboard Visualization:** The dashboard displays these predictions and offers clear, actionable maintenance advice.
 
@@ -37,8 +37,6 @@ The primary objective is to enhance vehicle safety and performance while signifi
 - **Joblib:** For efficient serialization and deserialization of trained models and preprocessors.
 
 ## 🚀 Usage
-
-### 1. Clone the Repository
 
 ### 1. Clone the Repository
 

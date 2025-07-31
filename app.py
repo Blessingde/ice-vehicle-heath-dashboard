@@ -3,7 +3,6 @@ import pandas as pd
 import numpy as np
 import joblib
 import os
-import traceback
 
 from utility.feature_engineering import prepare_features_for_component, \
     common_env_usage_features, engine_specific_features, brake_specific_features, \
@@ -433,15 +432,13 @@ if uploaded_file is not None:
                                   component_thresholds['brake'])
 
             col3, col4 = st.columns(2)
-            render_component_card(col3, "Tire System", "🛞", current_predictions['tire'],
+            render_component_card(col3, "Tire System", "⭕", current_predictions['tire'],
                                   component_thresholds['tire'])
 
     except Exception as e:
         st.error(f"An error occurred while processing the CSV file: {e}")
         st.info("Please ensure your CSV file has the correct columns and format as expected by the models.")
-        print("\n--- FULL PYTHON TRACEBACK START ---")
-        traceback.print_exc()
-        print("--- FULL PYTHON TRACEBACK END ---\n")
+        
 
         if 'current_predictions' in st.session_state:
             del st.session_state['current_predictions']

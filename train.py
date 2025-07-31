@@ -9,7 +9,7 @@ import joblib
 import os
 
 # Load Dataset
-df = pd.read_csv('./data/ice_synthetic_nigeria_data_focuse
+df = pd.read_csv('./data/ice_synthetic_nigeria_data_focuse')
 
 # Data Cleaning
 print(df.duplicated().sum())
